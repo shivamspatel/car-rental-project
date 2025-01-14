@@ -27,8 +27,8 @@ button {
 /* navbar */
 
 nav {
-    padding: 40px 20px; /* Adjust top/bottom and left/right padding */
-  }
+  padding: 40px 20px;
+}
 
 .nav__row {
   display: flex;
@@ -142,7 +142,7 @@ nav {
 /* header */
 
 header {
-  padding: 40px 20px; 
+  padding: 40px 20px;
 }
 
 .container {
@@ -224,13 +224,12 @@ header {
   position: absolute;
   z-index: 2;
   right: 0;
-  width: 50%;
+  width: 65%;
   margin-top: 56px;
-  max-width: 600px; 
   margin: 0 auto;
 }
 
-.header__img {
+.header-img {
   width: 100%;
   height: auto;
 }
@@ -527,7 +526,7 @@ header {
 /* Footer */
 
 footer {
-  padding: 40px 20px; /* Adjust top/bottom and left/right padding */
+  padding: 40px 20px;
 }
 
 .footer__row {
@@ -794,60 +793,59 @@ footer {
 
 @media (max-width: 1400px) {
   .container {
-    padding: 40px 10px; /* Adjust top/bottom and left/right padding */
+    padding: 40px 10px;
   }
 
   .nav__row {
-    padding: 20px 10px; /* Adjust navbar padding */
+    padding: 20px 10px;
   }
 
   .header__text {
-    margin-top: 40px; /* Reduce margin on smaller screens */
+    margin-top: 40px;
   }
 
   .features__row {
-    padding: 0 10px; /* Add padding for the features section */
+    padding: 0 10px;
   }
 }
 
 @media (max-width: 1400px) {
-  /* Adjust padding for the Download section */
   .download__row {
-    padding: 40px 20px; /* Adjust top/bottom and left/right padding */
+    padding: 40px 20px;
   }
 
   .download__text {
-    padding: 0 20px; /* Add horizontal padding for better alignment */
-    text-align: center; /* Center-align content for smaller screens */
+    padding: 0 20px;
+    text-align: center;
   }
 }
 
 @media (max-width: 1024px) {
   .download__row {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Center align content */
-    text-align: center; /* Center text alignment */
-    gap: 32px; /* Add spacing between elements */
-    padding: 40px 20px; /* Adjust padding for top/bottom and left/right */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 40px 20px;
   }
 
   .download__text {
-    width: 100%; /* Ensure full width for better alignment */
-    max-width: 550px; /* Limit the maximum width for readability */
-    padding: 0 20px; /* Add horizontal padding for alignment */
-  }
+    width: 100%;
+    max-width: 550px;
+    padding: 0 20px;
 
-  .download__text__links {
-    display: flex;
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center-align links */
-    gap: 16px; /* Add spacing between download links */
-    margin: 0 auto; /* Center the links container */
-  }
+    .download__text__links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      margin: 0 auto;
 
-  .download__text__link {
-    width: 80%; /* Reduce width of links for better fit */
-    max-width: 300px; /* Limit maximum width for larger screens */
+      .download__text__link {
+        width: 80%;
+        max-width: 300px;
+      }
+    }
   }
 }
